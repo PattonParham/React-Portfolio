@@ -1,6 +1,7 @@
 import React from "react";
 import {Col, Row, Container} from "../Grid/Grid";
 import './Navbar.css'
+import {Link} from "react-router-dom";
 const Navbar = () => {
 
     return(
@@ -11,11 +12,11 @@ const Navbar = () => {
             <div className="about link">
            
               <div>
-              <a href="/about">
+              <Link to="/about">
                   <p className="text">
                 About
                 </p>
-              </a>
+              </Link>
               </div>
              
             </div> 
@@ -23,22 +24,22 @@ const Navbar = () => {
             
               <div>
 
-              <a href="/contact">
+              <Link to="/contact">
               <p className="text">
                 Contact
                 </p>
-              </a>
+              </Link>
               </div>
          
             </div>
             <div className="portfolio link">
             
               <div>
-              <a href="/portfolio">
+              <Link to="/portfolio">
               <p className="text">
               Portfolio
               </p>
-              </a>
+              </Link>
               </div>
             
             </div>

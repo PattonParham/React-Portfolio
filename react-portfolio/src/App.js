@@ -14,10 +14,10 @@ function App() {
     <div className="bodydiv">
       <Navbar></Navbar>
       <Switch>
-        <Route excat path="/" component={About}></Route>
-        <Route excat path="/about" component={About}></Route>
-        <Route excat path="/contact" component={Contact}></Route>
-        <Route excat path="/portfolio" component={Portfolio}></Route>
+        <Route excat path="/" exact component={About}></Route>
+        <Route excat path="/about" exact component={About}></Route>
+        <Route excat path="/contact" exact component={Contact}></Route>
+        <Route excat path="/portfolio" exact component={Portfolio}></Route>
       </Switch>
 
 
