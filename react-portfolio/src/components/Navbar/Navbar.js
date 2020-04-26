@@ -4,6 +4,7 @@ import './Navbar.css'
 const Navbar = () => {
 
     return(
+       
         <div className="Navbar">
           <Row>
                 
@@ -11,7 +12,9 @@ const Navbar = () => {
            
               <div>
               <a href="/about">
+                  <p className="text">
                 About
+                </p>
               </a>
               </div>
              
@@ -21,7 +24,9 @@ const Navbar = () => {
               <div>
 
               <a href="/contact">
+              <p className="text">
                 Contact
+                </p>
               </a>
               </div>
          
@@ -30,7 +35,9 @@ const Navbar = () => {
             
               <div>
               <a href="/portfolio">
+              <p className="text">
               Portfolio
+              </p>
               </a>
               </div>
             
