@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
+import Navbar from "../src/components/Navbar/Navbar"
 
 import './App.css';
 
@@ -11,6 +12,7 @@ function App() {
   return (
     <Router>
     <div className="bodydiv">
+      <Navbar></Navbar>
       <Switch>
         <Route excat path="/" component={About}></Route>
         <Route excat path="/about" component={About}></Route>
